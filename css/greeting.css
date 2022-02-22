@@ -1,0 +1,30 @@
+@import "./variables.css";
+#login-form {
+    margin-top: 180px;
+}
+
+#login-form input {
+    outline: none;
+    border: none;
+    background-color: var(--bgColor);
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+#login-form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#login-form:focus-within input::placeholder {
+    color: var(--bgColor);
+}
+
+#main-container h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}

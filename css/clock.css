@@ -1,0 +1,16 @@
+#clock {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid white;
+    padding: 12px 16px;
+    border-radius: 7px;
+    /* offset-x, offset-y, shadowing정도, 상하좌우로 나오는 정도*/
+    box-shadow: 5px -3px 10px white;
+}
+
+#clock .fa-clock {
+    margin-right: 15px;
+}

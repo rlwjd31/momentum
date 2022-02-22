@@ -1,0 +1,37 @@
+/* const quote = document.querySelector("#quote span:first-child");
+const krQuote = document.querySelector("#quote span:nth-child(2)");
+const enQuote = document.querySelector("#quote span:last-child"); */
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+}
+
+#quote span {
+    margin-top: 10px;
+}
+
+#quote span:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#quote span:nth-child(2),
+#quote span:last-child {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#quote span:last-child {
+    text-align: center;
+}
+
+
+/* #quote span:first-child{
+    asdf */
+
+
+}
